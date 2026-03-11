@@ -31,10 +31,12 @@ Booking: https://calendly.com/getautomyze/30min
 
 ## Pages
 - Homepage: https://www.automyze.in/
-- Case Studies: https://www.automyze.in/case-studies.html
-- Our Process: https://www.automyze.in/process.html
-- FAQ: https://www.automyze.in/faq.html
-- Studio: https://www.automyze.in/studio.html
+- Services: https://www.automyze.in/services
+- Use Cases: https://www.automyze.in/use-cases
+- Studio: https://www.automyze.in/studio
+- Our Process: https://www.automyze.in/process
+- Case Studies: https://www.automyze.in/case-studies
+- FAQ: https://www.automyze.in/faq
 
 ## Keywords
 AI automation agency Mumbai, AI chatbot India, WhatsApp AI agent India, voice agent Mumbai, workflow automation, n8n India, automation services India.
