@@ -1,0 +1,21 @@
+{
+  "name": "Automyze — AI Automation Agency Mumbai",
+  "short_name": "Automyze",
+  "description": "Mumbai's premier AI Automation Agency. We build chatbots, WhatsApp AI agents, voice agents, and custom workflow automation for growing businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF8",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

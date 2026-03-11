@@ -70,20 +70,58 @@
     }
   </style>
 
+
+<!-- PWA & Mobile Web Tags -->
+<link rel="manifest" href="/manifest.json"/>
+<meta name="theme-color" content="#0A0A0A"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="apple-mobile-web-app-title" content="Automyze"/>
+
+<!-- Performance & DNS Prefetching -->
+<meta http-equiv="x-dns-prefetch-control" content="on"/>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+<link rel="dns-prefetch" href="https://cdn.tailwindcss.com"/>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=DM+Sans:wght@300;400;500&display=swap" as="style"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://automyze.in"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Our Process",
+      "item": "https://automyze.in/process.html"
+    }
+  ]
+}
+</script>
+
 </head>
 <body class="bg-luxury-white text-luxury-black font-body">
 <!-- BEGIN: Navbar -->
 <nav class="sticky top-0 z-50 bg-luxury-white/90 backdrop-blur-md border-b border-luxury-beige px-6 py-4">
 <div class="max-container mx-auto flex items-center justify-between max-w-7xl">
 <div class="flex items-baseline gap-8">
-<a class="text-2xl font-heading font-bold tracking-tight" href="automyze_seo_optimized.html">Automyze</a>
+<a class="text-2xl font-heading font-bold tracking-tight" href="/">Automyze</a>
 <div class="hidden md:flex gap-6 text-sm uppercase tracking-widest text-luxury-black/60">
-<a class="hover:text-luxury-black transition-colors" href="services.html">Services</a>
-<a class="hover:text-luxury-black transition-colors" href="use-cases.html">Use Cases</a>
-<a class="hover:text-luxury-black transition-colors" href="studio.html">Studio</a>
-<a class="text-luxury-black border-b border-luxury-gold pb-0.5 transition-colors" href="process.html">Process</a>
-<a class="hover:text-luxury-black transition-colors" href="case-studies.html">Results</a>
-<a class="hover:text-luxury-black transition-colors" href="faq.html">FAQ</a>
+<a class="hover:text-luxury-black transition-colors" href="/services">Services</a>
+<a class="hover:text-luxury-black transition-colors" href="/use-cases">Use Cases</a>
+<a class="hover:text-luxury-black transition-colors" href="/studio">Studio</a>
+<a class="text-luxury-black border-b border-luxury-gold pb-0.5 transition-colors" href="/process">Process</a>
+<a class="hover:text-luxury-black transition-colors" href="/case-studies">Results</a>
+<a class="hover:text-luxury-black transition-colors" href="/faq">FAQ</a>
 </div>
 </div>
 <div class="flex items-center gap-6">
@@ -108,7 +146,7 @@
   <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">THE PROCESS</p>
   <h1 class="text-4xl md:text-[56px] font-heading leading-tight mb-6">Live in Weeks. Not Months.</h1>
   <p class="text-luxury-black/50 max-w-xl mx-auto text-[15px] leading-relaxed mb-6">We move fast because your competitors aren't waiting.</p>
-  <p class="text-luxury-black/30 text-xs font-body"><a href="automyze_seo_optimized.html" class="hover:text-luxury-gold transition-colors">Home</a> <span class="mx-2">→</span> Process</p>
+  <p class="text-luxury-black/30 text-xs font-body"><a href="/" class="hover:text-luxury-gold transition-colors">Home</a> <span class="mx-2">→</span> Process</p>
 </div>
 </section>
 
@@ -250,21 +288,21 @@
 <div>
 <h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h4>
 <ul class="space-y-4 text-white/60 text-sm">
-<li><a class="hover:text-white transition-colors" href="services.html">Services</a></li>
-<li><a class="hover:text-white transition-colors" href="use-cases.html">Use Cases</a></li>
-<li><a class="hover:text-white transition-colors" href="studio.html">Studio</a></li>
-<li><a class="hover:text-white transition-colors" href="process.html">Process</a></li>
-<li><a class="hover:text-white transition-colors" href="case-studies.html">Case Studies</a></li>
-<li><a class="hover:text-white transition-colors" href="faq.html">FAQ</a></li>
+<li><a class="hover:text-white transition-colors" href="/services">Services</a></li>
+<li><a class="hover:text-white transition-colors" href="/use-cases">Use Cases</a></li>
+<li><a class="hover:text-white transition-colors" href="/studio">Studio</a></li>
+<li><a class="hover:text-white transition-colors" href="/process">Process</a></li>
+<li><a class="hover:text-white transition-colors" href="/case-studies">Case Studies</a></li>
+<li><a class="hover:text-white transition-colors" href="/faq">FAQ</a></li>
 </ul>
 </div>
 <div>
 <h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Studio</h4>
 <ul class="space-y-4 text-white/60 text-sm">
-<li><a class="hover:text-white transition-colors" href="studio.html">AI Photography</a></li>
-<li><a class="hover:text-white transition-colors" href="studio.html">Brand Visuals</a></li>
-<li><a class="hover:text-white transition-colors" href="studio.html">Video Content</a></li>
-<li><a class="hover:text-white transition-colors" href="studio.html">Book Session</a></li>
+<li><a class="hover:text-white transition-colors" href="/studio">AI Photography</a></li>
+<li><a class="hover:text-white transition-colors" href="/studio">Brand Visuals</a></li>
+<li><a class="hover:text-white transition-colors" href="/studio">Video Content</a></li>
+<li><a class="hover:text-white transition-colors" href="/studio">Book Session</a></li>
 </ul>
 </div>
 <div>

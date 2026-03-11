@@ -1,0 +1,42 @@
+# Automyze — AI Automation Agency
+# https://automyze.in
+# Last updated: 2026-03-11
+
+## About
+Automyze is a full-service AI Automation Agency headquartered in Mumbai, Maharashtra, India.
+We build highly optimized custom AI systems for businesses to automate sales, customer support, and internal operations.
+
+## Services
+- AI Website Chatbots: Intelligent 24/7 lead capture and qualification.
+- WhatsApp AI Agents: Deploy automated conversational agents on WhatsApp.
+- Inbound Voice Agents: Professional AI answering systems matching human receptionists.
+- Outbound Voice Agents: Proactive AI scheduling and lead follow-up calls.
+- Workflow Automation: Custom n8n and LangChain deployments connecting enterprise tools.
+- RAG Document Chatbots: AI assistants trained privately on your company knowledge base.
+- Automyze Studio: Premium generative AI photography and creative assets.
+
+## Target Clients
+Serving ambitious brands, real estate, e-commerce, and service-based businesses in India and globally.
+
+## Pricing & Process
+- Projects typically start from ₹15,000 INR
+- Turnaround time: 2 to 4 weeks depending on workflow complexity.
+- Discovery: Free 30-minute consultation via Calendly.
+
+## Contact & Links
+Website: https://automyze.in
+Email: hello@automyze.com
+Location: Bandra West, Mumbai, Maharashtra, India
+Booking: https://calendly.com/getautomyze/30min
+
+## Pages
+- Homepage: https://automyze.in/automyze_seo_optimized.html
+- Services: https://automyze.in/services.html
+- Use Cases: https://automyze.in/use-cases.html
+- Case Studies: https://automyze.in/case-studies.html
+- Our Process: https://automyze.in/process.html
+- FAQ: https://automyze.in/faq.html
+- Studio: https://automyze.in/studio.html
+
+## Keywords
+AI automation agency Mumbai, AI chatbot India, WhatsApp AI agent India, voice agent Mumbai, workflow automation, n8n India, automation services India.
