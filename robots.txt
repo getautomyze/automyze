@@ -7,8 +7,7 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://automyze.in/sitemap.xml
+Sitemap: https://www.automyze.in/sitemap.xml
 
 Disallow: /cdn-cgi/
 Disallow: /private/
-Disallow: /*.json$

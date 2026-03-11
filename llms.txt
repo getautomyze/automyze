@@ -1,5 +1,5 @@
 # Automyze — AI Automation Agency
-# https://automyze.in
+# https://www.automyze.in
 # Last updated: 2026-03-11
 
 ## About
@@ -24,19 +24,17 @@ Serving ambitious brands, real estate, e-commerce, and service-based businesses 
 - Discovery: Free 30-minute consultation via Calendly.
 
 ## Contact & Links
-Website: https://automyze.in
+Website: https://www.automyze.in
 Email: hello@automyze.com
 Location: Bandra West, Mumbai, Maharashtra, India
 Booking: https://calendly.com/getautomyze/30min
 
 ## Pages
-- Homepage: https://automyze.in/
-- Services: https://automyze.in/services
-- Use Cases: https://automyze.in/use-cases
-- Case Studies: https://automyze.in/case-studies
-- Our Process: https://automyze.in/process
-- FAQ: https://automyze.in/faq
-- Studio: https://automyze.in/studio
+- Homepage: https://www.automyze.in/
+- Case Studies: https://www.automyze.in/case-studies.html
+- Our Process: https://www.automyze.in/process.html
+- FAQ: https://www.automyze.in/faq.html
+- Studio: https://www.automyze.in/studio.html
 
 ## Keywords
 AI automation agency Mumbai, AI chatbot India, WhatsApp AI agent India, voice agent Mumbai, workflow automation, n8n India, automation services India.
