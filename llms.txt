@@ -30,13 +30,13 @@ Location: Bandra West, Mumbai, Maharashtra, India
 Booking: https://calendly.com/getautomyze/30min
 
 ## Pages
-- Homepage: https://automyze.in/automyze_seo_optimized.html
-- Services: https://automyze.in/services.html
-- Use Cases: https://automyze.in/use-cases.html
-- Case Studies: https://automyze.in/case-studies.html
-- Our Process: https://automyze.in/process.html
-- FAQ: https://automyze.in/faq.html
-- Studio: https://automyze.in/studio.html
+- Homepage: https://automyze.in/
+- Services: https://automyze.in/services
+- Use Cases: https://automyze.in/use-cases
+- Case Studies: https://automyze.in/case-studies
+- Our Process: https://automyze.in/process
+- FAQ: https://automyze.in/faq
+- Studio: https://automyze.in/studio
 
 ## Keywords
 AI automation agency Mumbai, AI chatbot India, WhatsApp AI agent India, voice agent Mumbai, workflow automation, n8n India, automation services India.
