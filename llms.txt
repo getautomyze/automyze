@@ -1,42 +1,64 @@
-# Automyze — AI Automation Agency
+# Automyze — Premium AI Operations Consulting
 # https://www.automyze.in
-# Last updated: 2026-03-11
+# Last updated: 2026-06-09
 
 ## About
-Automyze is a full-service AI Automation Agency headquartered in Mumbai, Maharashtra, India.
-We build highly optimized custom AI systems for businesses to automate sales, customer support, and internal operations.
+Automyze is a premium AI Operations Consulting and Business Transformation firm based in Mumbai, India. We help growing businesses eliminate repetitive work, reduce manual processes, lower team workload, and build long-term operational efficiency. We partner with business owners and leaders to engineer practical, scalable AI workflows that deliver concrete commercial outcomes.
 
-## Services
-- AI Website Chatbots: Intelligent 24/7 lead capture and qualification.
-- WhatsApp AI Agents: Deploy automated conversational agents on WhatsApp.
-- Inbound Voice Agents: Professional AI answering systems matching human receptionists.
-- Outbound Voice Agents: Proactive AI scheduling and lead follow-up calls.
-- Workflow Automation: Custom n8n and LangChain deployments connecting enterprise tools.
-- RAG Document Chatbots: AI assistants trained privately on your company knowledge base.
-- Automyze Studio: Premium generative AI photography and creative assets.
+## Core Methodology
+- AI Operational Audit: Deep workflow discovery mapping manual friction points and bottlenecks.
+- AI Strategy Roadmap: Full architecture designs and ROI projections for custom AI systems.
+- System Implementation: Seamless deployment of custom LLM, RAG, and agent infrastructure into existing CRMs.
+- AI Team Enablement: Workforce training, detailed documentation, and post-launch optimization.
 
-## Target Clients
-Serving ambitious brands, real estate, e-commerce, and service-based businesses in India and globally.
+## Specializations (Process Automation)
+- Lead Management: Capture, qualify, and route inbound prospects in under 60 seconds.
+- WhatsApp Business Operations: Transition conversational channels from support clutter to auto-pre-sales engines.
+- Customer Support: Inbound/outbound triage, 24/7 automated resolution, and smart escalation routing.
+- Document Processing: Intelligent OCR and LLM extraction from invoices, statements, and shipping bills.
+- Appointment Booking: Custom voice and chat booking agents syncing with calendars.
+- Quotation Generation: Instant pricing engines to reduce time-to-quote.
+- Back Office Operations: Auto invoice reconciliation and ERP/accounting sync.
+- Team Productivity: Custom AI work environments and internal SOP knowledge bases.
 
-## Pricing & Process
-- Projects typically start from ₹15,000 INR
-- Turnaround time: 2 to 4 weeks depending on workflow complexity.
-- Discovery: Free 30-minute consultation via Calendly.
+## Target Sectors
+Serving logistics, real estate, clinics, solar installers, manufacturing, and local service businesses across India and globally.
+
+## Engagement Model
+- Typical project timelines: 2 to 4 weeks depending on workflow complexity.
+- Discovery: Free 30-minute AI Operational Audit consultation via Calendly.
 
 ## Contact & Links
-Website: https://www.automyze.in
-Email: hello@automyze.com
-Location: Bandra West, Mumbai, Maharashtra, India
-Booking: https://calendly.com/getautomyze/30min
+- Website: https://www.automyze.in
+- Email: hello@automyze.com
+- Location: Bandra West, Mumbai, Maharashtra, India
+- Booking: https://calendly.com/getautomyze/30min
 
-## Pages
+## Core Navigation
 - Homepage: https://www.automyze.in/
 - Services: https://www.automyze.in/services
 - Use Cases: https://www.automyze.in/use-cases
-- Studio: https://www.automyze.in/studio
 - Our Process: https://www.automyze.in/process
-- Case Studies: https://www.automyze.in/case-studies
+- Case Studies & Results: https://www.automyze.in/case-studies
 - FAQ: https://www.automyze.in/faq
 
-## Keywords
-AI automation agency Mumbai, AI chatbot India, WhatsApp AI agent India, voice agent Mumbai, workflow automation, n8n India, automation services India.
+## Dedicated Industry Solutions
+- AI for Logistics: https://www.automyze.in/ai-for-logistics
+- AI for Real Estate: https://www.automyze.in/ai-for-real-estate
+- AI for Clinics: https://www.automyze.in/ai-for-clinics
+- AI for Solar: https://www.automyze.in/ai-for-solar
+- AI for Manufacturing: https://www.automyze.in/ai-for-manufacturing
+- AI for Service Businesses: https://www.automyze.in/ai-for-service-businesses
+
+## Dedicated Process Solutions
+- AI Lead Management: https://www.automyze.in/ai-for-lead-management
+- AI WhatsApp Business: https://www.automyze.in/ai-for-whatsapp-business
+- AI Customer Support: https://www.automyze.in/ai-for-customer-support
+- AI Document Processing: https://www.automyze.in/ai-for-document-processing
+- AI Appointment Booking: https://www.automyze.in/ai-for-appointment-booking
+- AI Quotation Generation: https://www.automyze.in/ai-for-quotation-generation
+- AI Back Office Operations: https://www.automyze.in/ai-for-back-office-operations
+- AI Team Productivity: https://www.automyze.in/ai-for-team-productivity
+
+## Discoverability Keywords
+AI operations consulting India, business transformation partner, operational efficiency consultancy, AI strategy roadmap, workflow optimization, enterprise AI implementation, boutique AI consulting, AI for small business, Mumbai.
