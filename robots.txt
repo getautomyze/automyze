@@ -1,13 +1,27 @@
 User-agent: *
 Allow: /
+Disallow: /googlebab015a98012d39d.html
+Disallow: /og-image.html
+Disallow: /cdn-cgi/
+Disallow: /private/
 
-User-agent: Googlebot
+# Explicitly allow major AI search and citation crawlers
+User-agent: GPTBot
 Allow: /
 
-User-agent: Bingbot
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://www.automyze.in/sitemap.xml
-
-Disallow: /cdn-cgi/
-Disallow: /private/
