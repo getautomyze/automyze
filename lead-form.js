@@ -169,6 +169,34 @@
     }
   }
 
+  // === 3.5 INJECT FLOATING WHATSAPP BUTTON ===
+  function injectWhatsAppButton() {
+    if (document.getElementById("automyze-wa-float")) return;
+
+    const waBtn = document.createElement("a");
+    waBtn.id = "automyze-wa-float";
+    waBtn.href = "https://wa.me/919619810084?text=Hi%2C%20I'm%20interested%20in%20automating%20my%20business%20workflows.";
+    waBtn.target = "_blank";
+    waBtn.rel = "noopener noreferrer";
+    waBtn.className = "fixed bottom-6 right-6 z-[9999] flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-2xl hover:scale-110 transition-transform hover-lift animate-fade-up";
+    waBtn.style.boxShadow = "0 10px 25px -5px rgba(37, 211, 102, 0.4)";
+    
+    // SVG WhatsApp Icon
+    waBtn.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+      </svg>
+    `;
+    document.body.appendChild(waBtn);
+  }
+
+  // Inject WhatsApp button when DOM is ready
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", injectWhatsAppButton);
+  } else {
+    injectWhatsAppButton();
+  }
+
   // === 4. INJECT MODAL HTML ===
   let modalBackdrop = null;
 
@@ -202,22 +230,10 @@
               <input type="text" id="lead-name" name="name" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. Rajesh Kumar" />
             </div>
 
-            <!-- Email & Phone Grid -->
-            <div class="grid md:grid-cols-2 gap-5">
-              <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-email">Work Email *</label>
-                <input type="email" id="lead-email" name="email" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. rajesh@company.in" />
-              </div>
-              <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-phone">Contact Number *</label>
-                <input type="tel" id="lead-phone" name="phone" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. +91 98765 43210" />
-              </div>
-            </div>
-
-            <!-- Company Name -->
+            <!-- WhatsApp Number -->
             <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-company">Company Name *</label>
-              <input type="text" id="lead-company" name="company" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. Apex Logistics Solutions" />
+              <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-phone">WhatsApp Number *</label>
+              <input type="tel" id="lead-phone" name="phone" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. +91 98765 43210" />
             </div>
 
             <!-- Bottlenecks / Pain points -->
@@ -280,22 +296,10 @@
             <input type="text" id="lead-name" name="name" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. Rajesh Kumar" />
           </div>
 
-          <!-- Email & Phone Grid -->
-          <div class="grid md:grid-cols-2 gap-5">
-            <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-email">Work Email *</label>
-              <input type="email" id="lead-email" name="email" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. rajesh@company.in" />
-            </div>
-            <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-phone">Contact Number *</label>
-              <input type="tel" id="lead-phone" name="phone" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. +91 98765 43210" />
-            </div>
-          </div>
-
-          <!-- Company Name -->
+          <!-- WhatsApp Number -->
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-company">Company Name *</label>
-            <input type="text" id="lead-company" name="company" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. Apex Logistics Solutions" />
+            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-600 mb-1.5" for="lead-phone">WhatsApp Number *</label>
+            <input type="tel" id="lead-phone" name="phone" required class="automyze-input w-full px-4 py-3 bg-white border border-neutral-200 rounded-lg text-sm transition-all text-neutral-950" placeholder="e.g. +91 98765 43210" />
           </div>
 
           <!-- Bottlenecks / Pain points -->
@@ -368,13 +372,11 @@
 
     // Form inputs values
     const name = document.getElementById("lead-name").value.trim();
-    const email = document.getElementById("lead-email").value.trim();
     const phone = document.getElementById("lead-phone").value.trim();
-    const company = document.getElementById("lead-company").value.trim();
     const notes = document.getElementById("lead-notes").value.trim();
 
     // Basic Validation
-    if (!name || !email || !phone || !company || !notes) {
+    if (!name || !phone || !notes) {
       errorMsg.textContent = "Please fill in all required fields.";
       errorMsg.classList.remove("hidden");
       return;
@@ -400,9 +402,7 @@
       submissionUrl = CONFIG.ACCESS_KEY_OR_WEBHOOK;
       bodyData = {
         name,
-        email,
         phone,
-        company,
         notes,
         source: window.location.pathname,
         submittedAt: new Date().toISOString()
@@ -412,11 +412,9 @@
       bodyData = {
         access_key: CONFIG.ACCESS_KEY_OR_WEBHOOK,
         name: name,
-        email: email,
         phone: phone,
-        company: company,
         notes: notes,
-        subject: `[New Automyze Lead] ${company} - ${name}`,
+        subject: `[New Automyze Lead] - ${name}`,
         from_name: "Automyze Lead Capture",
       };
     }
@@ -436,11 +434,11 @@
           if (window.gtag) {
             window.gtag("event", "lead_captured", {
               event_category: "Engagement",
-              event_label: company,
+              event_label: name,
             });
           }
           // Proceed to render Success Screen
-          renderSuccessScreen(name, email);
+          renderSuccessScreen(name);
         } else {
           const json = await response.json();
           throw new Error(json.message || "Failed to submit lead data.");
@@ -456,7 +454,7 @@
   }
 
   // === 8. SHOW SUCCESS CONFIRMATION SCREEN ===
-  function renderSuccessScreen(name, email) {
+  function renderSuccessScreen(name) {
     const modalBody = document.getElementById("automyze-modal-body");
     
     // Custom Success Card with pulse gold checkmark
@@ -470,14 +468,14 @@
         
         <h3 class="text-3xl font-heading font-bold text-luxury-black mb-4" style="font-family: 'Playfair Display', serif;">Audit Request Received</h3>
         <p class="text-neutral-600 text-sm leading-relaxed mb-6 max-w-sm mx-auto">
-          Thank you, <strong class="text-neutral-900">${name}</strong>. We have captured your company details and bottleneck report.
+          Thank you, <strong class="text-neutral-900">${name}</strong>. We have captured your bottleneck report.
         </p>
         
         <div class="bg-luxury-beige/40 border border-luxury-beige p-5 rounded-xl text-left text-xs text-neutral-600 leading-relaxed mb-8 max-w-md mx-auto space-y-2">
           <p class="font-bold text-luxury-gold uppercase tracking-widest text-[10px]">What Happens Next?</p>
           <p>1. Our AI Operations Consultant will review your submission.</p>
           <p>2. We will run an initial feasibility audit on your workflow bottleneck.</p>
-          <p>3. We will reach out to you at <strong class="text-neutral-900">${email}</strong> within 24 hours to schedule your walk-through.</p>
+          <p>3. We will reach out to you on WhatsApp within 24 hours to schedule your walk-through.</p>
         </div>
         
         <button id="automyze-success-close-btn" class="bg-luxury-black text-white px-10 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-neutral-800 transition-colors">
