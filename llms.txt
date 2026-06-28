@@ -1,6 +1,7 @@
 # Automyze — Premium AI Operations Consulting
-# https://www.automyze.in
-# Last updated: 2026-06-09
+
+> Source: [https://www.automyze.in](https://www.automyze.in)  
+> Last updated: 2026-06-28
 
 ## About
 Automyze is a premium AI Operations Consulting and Business Transformation firm based in Mumbai, India. We help growing businesses eliminate repetitive work, reduce manual processes, lower team workload, and build long-term operational efficiency. We partner with business owners and leaders to engineer practical, scalable AI workflows that deliver concrete commercial outcomes.
@@ -29,36 +30,36 @@ Serving logistics, real estate, clinics, solar installers, manufacturing, automo
 - Discovery: Free 30-minute AI Operational Audit consultation via our on-site request form.
 
 ## Contact & Links
-- Website: https://www.automyze.in
+- Website: [https://www.automyze.in](https://www.automyze.in)
 - Email: hello@automyze.com
 - Location: Bandra West, Mumbai, Maharashtra, India
-- Request Audit: https://www.automyze.in/#request-audit
+- Request Audit: [https://www.automyze.in/#request-audit](https://www.automyze.in/#request-audit)
 
 ## Core Navigation
-- Homepage: https://www.automyze.in/
-- Services: https://www.automyze.in/services
-- Use Cases: https://www.automyze.in/use-cases
-- Our Process: https://www.automyze.in/process
-- Case Studies & Results: https://www.automyze.in/case-studies
-- FAQ: https://www.automyze.in/faq
+- [Homepage](https://www.automyze.in/)
+- [Services](https://www.automyze.in/services)
+- [Use Cases](https://www.automyze.in/use-cases)
+- [Our Process](https://www.automyze.in/process)
+- [Case Studies & Results](https://www.automyze.in/case-studies)
+- [FAQ](https://www.automyze.in/faq)
 
 ## Dedicated Industry Solutions
-- AI for Logistics: https://www.automyze.in/ai-for-logistics
-- AI for Real Estate: https://www.automyze.in/ai-for-real-estate
-- AI for Clinics: https://www.automyze.in/ai-for-clinics
-- AI for Solar: https://www.automyze.in/ai-for-solar
-- AI for Manufacturing: https://www.automyze.in/ai-for-manufacturing
-- AI for Service Businesses: https://www.automyze.in/ai-for-service-businesses
+- [AI for Logistics](https://www.automyze.in/ai-for-logistics)
+- [AI for Real Estate](https://www.automyze.in/ai-for-real-estate)
+- [AI for Clinics](https://www.automyze.in/ai-for-clinics)
+- [AI for Solar](https://www.automyze.in/ai-for-solar)
+- [AI for Manufacturing](https://www.automyze.in/ai-for-manufacturing)
+- [AI for Service Businesses](https://www.automyze.in/ai-for-service-businesses)
 
 ## Dedicated Process Solutions
-- AI Lead Management: https://www.automyze.in/ai-for-lead-management
-- AI WhatsApp Business: https://www.automyze.in/ai-for-whatsapp-business
-- AI Customer Support: https://www.automyze.in/ai-for-customer-support
-- AI Document Processing: https://www.automyze.in/ai-for-document-processing
-- AI Appointment Booking: https://www.automyze.in/ai-for-appointment-booking
-- AI Quotation Generation: https://www.automyze.in/ai-for-quotation-generation
-- AI Back Office Operations: https://www.automyze.in/ai-for-back-office-operations
-- AI Team Productivity: https://www.automyze.in/ai-for-team-productivity
+- [AI Lead Management](https://www.automyze.in/ai-for-lead-management)
+- [AI WhatsApp Business](https://www.automyze.in/ai-for-whatsapp-business)
+- [AI Customer Support](https://www.automyze.in/ai-for-customer-support)
+- [AI Document Processing](https://www.automyze.in/ai-for-document-processing)
+- [AI Appointment Booking](https://www.automyze.in/ai-for-appointment-booking)
+- [AI Quotation Generation](https://www.automyze.in/ai-for-quotation-generation)
+- [AI Back Office Operations](https://www.automyze.in/ai-for-back-office-operations)
+- [AI Team Productivity](https://www.automyze.in/ai-for-team-productivity)
 
 ## Discoverability Keywords
 AI operations consulting India, business transformation partner, operational efficiency consultancy, AI strategy roadmap, workflow optimization, enterprise AI implementation, boutique AI consulting, AI for small business, AI agents for automobiles Mumbai, AI automation for automobile dealers India, Mumbai.

@@ -32,11 +32,13 @@
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link rel="preconnect" href="https://static.cloudflareinsights.com" crossorigin/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/></noscript></noscript>
 
 <!-- Tailwind CSS -->
+<link rel="preload" href="/css/styles.css" as="style"/>
 <link rel="stylesheet" href="/css/styles.css"/>
 <style data-purpose="custom-animations">
     @keyframes fade-up {
@@ -215,13 +217,13 @@
 <div class="flex items-center gap-6">
 <div class="hidden lg:flex items-center gap-2 px-3 py-1 bg-luxury-gold/10 border border-luxury-gold/20 rounded-full">
 <span class="relative flex h-2 w-2">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75"></span>
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75" style="will-change:transform,opacity;"></span>
 <span class="relative inline-flex rounded-full h-2 w-2 bg-luxury-gold"></span>
 </span>
-<span class="text-[10px] font-bold uppercase tracking-tighter text-luxury-gold">3 spots left for April</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter" style="color:#7A5C1E;">3 spots left for June</span>
 </div>
 <a class="bg-luxury-black text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-luxury-black/80 transition-all" href="#request-audit" target="_blank" rel="noopener noreferrer">
-          Request AI Audit â†’
+          Request AI Audit →
         </a>
 </div>
 </div>
@@ -232,7 +234,7 @@
 <!-- BEGIN: Hero Section -->
 <section class="pt-32 pb-20 px-6 bg-luxury-white">
 <div class="max-w-4xl mx-auto text-center animate-fade-up">
-  <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">INDUSTRY SOLUTION</p>
+  <p class="text-xs uppercase tracking-[0.3em] font-bold mb-4" style="color:#7A5C1E;">INDUSTRY SOLUTION</p>
   <h1 class="text-4xl md:text-[56px] font-heading leading-tight mb-6">AI Systems for Solar Installers & Energy Developers</h1>
   <p class="text-luxury-black/75 max-w-2xl mx-auto text-lg leading-relaxed mb-10">Accelerate quote turnarounds and permitting proposal drafting. Stop letting engineers get bottlenecked by analyzing site photos or writing proposals manually. We build custom Vision AI systems that automate design drafting.</p>
   <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -279,7 +281,7 @@
 <!-- BEGIN: Solution Section -->
 <section class="py-24 px-6 max-w-7xl mx-auto">
 <div class="text-center mb-16">
-  <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">The Solution</p>
+  <p class="text-xs uppercase tracking-[0.3em] font-bold mb-4" style="color:#7A5C1E;">The Solution</p>
   <h2 class="text-3xl md:text-4xl font-heading">Practical AI Opportunities</h2>
 </div>
 <div class="grid md:grid-cols-2 gap-8">
@@ -385,7 +387,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/services">Services</a></li>
 <li><a class="hover:text-white transition-colors" href="/use-cases">Use Cases</a></li>
 <li><a class="hover:text-white transition-colors" href="/process">Process</a></li>
@@ -395,7 +397,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Industries</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-logistics">Logistics</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-real-estate">Real Estate</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-clinics">Clinics</a></li>
@@ -406,7 +408,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Solutions</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-lead-management">Lead Admin</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-whatsapp-business">WhatsApp AI</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-customer-support">Client Support</a></li>
@@ -419,7 +421,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Contact</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a href="mailto:hello@automyze.com" class="hover:text-white transition-colors">hello@automyze.com</a></li>
 <li>Bandra West, Mumbai</li>
 <li><a href="tel:+919619810084" class="hover:text-white transition-colors">+91 96198 10084</a></li>
@@ -427,7 +429,7 @@
 </ul>
 </div>
 </div>
-<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/20">
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/50">
 <p>Â© 2026 Automyze. All rights reserved.</p>
 <div class="flex gap-8">
 <a href="#">Privacy Policy</a>

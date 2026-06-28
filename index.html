@@ -218,8 +218,9 @@
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link rel="preconnect" href="https://static.cloudflareinsights.com" crossorigin/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/></noscript></noscript>
 <!-- Tailwind CSS v3 -->
 <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
@@ -240,6 +241,7 @@
      search.google.com/search-console
 â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE"/> -->
+<link rel="preload" href="/css/styles.css" as="style"/>
 <link rel="stylesheet" href="/css/styles.css"/>
 <style data-purpose="custom-animations">
     @keyframes fade-up {
@@ -392,13 +394,13 @@
 <div class="flex items-center gap-6">
 <div class="hidden lg:flex items-center gap-2 px-3 py-1 bg-luxury-gold/10 border border-luxury-gold/20 rounded-full">
 <span class="relative flex h-2 w-2">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75"></span>
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75" style="will-change:transform,opacity;"></span>
 <span class="relative inline-flex rounded-full h-2 w-2 bg-luxury-gold"></span>
 </span>
-<span class="text-[10px] font-bold uppercase tracking-tighter text-luxury-gold">3 spots left for April</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter" style="color:#7A5C1E;">3 spots left for June</span>
 </div>
 <a class="bg-luxury-black text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-luxury-black/80 transition-all" href="#request-audit" target="_blank" rel="noopener noreferrer">
-          Request AI Audit â†’
+          Request AI Audit →
         </a>
 </div>
 </div>
@@ -416,7 +418,7 @@
   We engineer AI systems that eliminate manual friction, accelerate workflows, and scale your business without scaling headcount.
 </h2>
 <p class="text-xl md:text-2xl text-luxury-black/70 mb-10 max-w-xl">
-          Stop scaling headcount. Start scaling <span class="font-heading italic text-luxury-gold">Efficiency.</span>
+          Stop scaling headcount. Start scaling <span class="font-heading italic" style="color:#A07830;">Efficiency.</span>
 </p>
 <div class="flex flex-col sm:flex-row gap-4 mb-16">
 <a href="#request-audit" class="bg-luxury-black text-white px-8 py-4 rounded-md text-base md:text-lg hover:opacity-90 transition-all inline-flex items-center justify-center font-bold tracking-wide">Request AI Operational Audit<span class="whitespace-nowrap">&nbsp;â†’</span></a>
@@ -462,7 +464,7 @@
         <svg aria-hidden="true" class="w-5 h-5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
       </div>
       <div>
-        <p class="text-[9px] font-bold text-luxury-gold uppercase tracking-widest">01 / Identify</p>
+        <p class="text-[9px] font-bold uppercase tracking-widest" style="color:#7A5C1E;">01 / Identify</p>
         <h3 class="text-xs font-heading font-bold text-luxury-black mt-0.5">Workflow Audit</h3>
         <p class="text-[9px] text-neutral-600 mt-0.5 leading-normal">Pinpoint manual bottlenecks & labor leaks.</p>
       </div>
@@ -474,7 +476,7 @@
         <svg aria-hidden="true" class="w-5 h-5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
       </div>
       <div>
-        <p class="text-[9px] font-bold text-luxury-gold uppercase tracking-widest">02 / Architect</p>
+        <p class="text-[9px] font-bold uppercase tracking-widest" style="color:#7A5C1E;">02 / Architect</p>
         <h3 class="text-xs font-heading font-bold text-luxury-black mt-0.5">AI Systems Design</h3>
         <p class="text-[9px] text-neutral-600 mt-0.5 leading-normal">Map tailored data & agent blueprints.</p>
       </div>
@@ -486,7 +488,7 @@
         <svg aria-hidden="true" class="w-5 h-5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
       </div>
       <div>
-        <p class="text-[9px] font-bold text-luxury-gold uppercase tracking-widest">03 / Integrate</p>
+        <p class="text-[9px] font-bold uppercase tracking-widest" style="color:#7A5C1E;">03 / Integrate</p>
         <h3 class="text-xs font-heading font-bold text-luxury-black mt-0.5">Custom Engineering</h3>
         <p class="text-[9px] text-neutral-600 mt-0.5 leading-normal">Connect API pipelines, OCR, & CRM systems.</p>
       </div>
@@ -498,7 +500,7 @@
         <svg aria-hidden="true" class="w-5 h-5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
       </div>
       <div>
-        <p class="text-[9px] font-bold text-luxury-gold uppercase tracking-widest">04 / Enable</p>
+        <p class="text-[9px] font-bold uppercase tracking-widest" style="color:#7A5C1E;">04 / Enable</p>
         <h3 class="text-xs font-heading font-bold text-luxury-black mt-0.5">Team Onboarding</h3>
         <p class="text-[9px] text-neutral-600 mt-0.5 leading-normal">Deliver custom SOP documentation & training.</p>
       </div>
@@ -510,7 +512,7 @@
         <svg aria-hidden="true" class="w-5 h-5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
       </div>
       <div>
-        <p class="text-[9px] font-bold text-luxury-gold uppercase tracking-widest">05 / Optimize</p>
+        <p class="text-[9px] font-bold uppercase tracking-widest" style="color:#7A5C1E;">05 / Optimize</p>
         <h3 class="text-xs font-heading font-bold text-luxury-black mt-0.5">Continuous ROI</h3>
         <p class="text-[9px] text-neutral-600 mt-0.5 leading-normal">Monitor pipelines to scale efficiency.</p>
       </div>
@@ -557,7 +559,7 @@
 <!-- BEGIN: Services Section -->
 <section class="py-24 px-6 max-w-7xl mx-auto scroll-mt-24" id="services">
 <div class="mb-16 text-center">
-<p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">What We Build</p>
+<p class="text-xs uppercase tracking-[0.3em] font-bold mb-4" style="color:#7A5C1E;">What We Build</p>
 <h2 class="text-4xl md:text-5xl font-heading mb-6">Four Systems. Every Business Problem Solved.</h2>
 <p class="text-luxury-black/75 max-w-2xl mx-auto text-[15px] leading-relaxed">We don't sell tools. We build complete business systems that generate revenue, cut costs, and run 24/7 â€” so you can focus on growth.</p>
 </div>
@@ -586,7 +588,7 @@
   <!-- CARD 1: AI Sales System -->
   <div class="p-8 border-l-[3px] border-luxury-gold bg-white rounded-xl shadow-sm hover:-translate-y-1.5 hover:shadow-xl hover:border-luxury-gold transition-all duration-300 group flex flex-col h-full" data-purpose="card">
     <div class="flex justify-between items-start mb-3">
-      <h4 class="text-[22px] font-body font-semibold text-luxury-black">AI Sales System</h4>
+      <h3 class="text-[22px] font-body font-semibold text-luxury-black">AI Sales System</h3>
       <span class="material-symbols-outlined text-luxury-gold text-3xl opacity-60 group-hover:opacity-100 transition-opacity">trending_up</span>
     </div>
     <p class="font-heading italic text-luxury-gold text-base mb-4">Never lose a lead again.</p>
@@ -599,7 +601,7 @@
   <!-- CARD 2: AI Customer Support System -->
   <div class="p-8 border-l-[3px] border-luxury-gold bg-white rounded-xl shadow-sm hover:-translate-y-1.5 hover:shadow-xl hover:border-luxury-gold transition-all duration-300 group flex flex-col h-full" data-purpose="card">
     <div class="flex justify-between items-start mb-3">
-      <h4 class="text-[22px] font-body font-semibold text-luxury-black">AI Customer Support System</h4>
+      <h3 class="text-[22px] font-body font-semibold text-luxury-black">AI Customer Support System</h3>
       <span class="material-symbols-outlined text-luxury-gold text-3xl opacity-60 group-hover:opacity-100 transition-opacity">headset_mic</span>
     </div>
     <p class="font-heading italic text-luxury-gold text-base mb-4">24/7 support. Zero extra headcount.</p>
@@ -612,7 +614,7 @@
   <!-- CARD 3: AI Operations System -->
   <div class="p-8 border-l-[3px] border-luxury-gold bg-white rounded-xl shadow-sm hover:-translate-y-1.5 hover:shadow-xl hover:border-luxury-gold transition-all duration-300 group flex flex-col h-full" data-purpose="card">
     <div class="flex justify-between items-start mb-3">
-      <h4 class="text-[22px] font-body font-semibold text-luxury-black">AI Operations System</h4>
+      <h3 class="text-[22px] font-body font-semibold text-luxury-black">AI Operations System</h3>
       <span class="material-symbols-outlined text-luxury-gold text-3xl opacity-60 group-hover:opacity-100 transition-opacity">hub</span>
     </div>
     <p class="font-heading italic text-luxury-gold text-base mb-4">Cut manual work by 40%.</p>
@@ -625,7 +627,7 @@
   <!-- CARD 4: AI Team Enablement -->
   <div class="p-8 border-l-[3px] border-luxury-gold bg-white rounded-xl shadow-sm hover:-translate-y-1.5 hover:shadow-xl hover:border-luxury-gold transition-all duration-300 group flex flex-col h-full" data-purpose="card">
     <div class="flex justify-between items-start mb-3">
-      <h4 class="text-[22px] font-body font-semibold text-luxury-black">AI Team Enablement</h4>
+      <h3 class="text-[22px] font-body font-semibold text-luxury-black">AI Team Enablement</h3>
       <span class="material-symbols-outlined text-luxury-gold text-3xl opacity-60 group-hover:opacity-100 transition-opacity">school</span>
     </div>
     <p class="font-heading italic text-luxury-gold text-base mb-4">Empowering your workforce.</p>
@@ -643,7 +645,7 @@
 <section class="py-24 px-6 bg-luxury-beige scroll-mt-24" id="use-cases">
 <div class="max-w-7xl mx-auto">
   <div class="text-center mb-16">
-    <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">Industries We Serve</p>
+    <p class="text-xs uppercase tracking-[0.3em] font-bold mb-4" style="color:#7A5C1E;">Industries We Serve</p>
     <h2 class="text-4xl md:text-5xl font-heading mb-6">AI Systems We Build</h2>
     <p class="text-luxury-black/75 max-w-2xl mx-auto text-[15px] leading-relaxed">Every industry has unique workflows. We don't give you a generic bot â€” we build AI systems designed for how your business actually operates.</p>
   </div>
@@ -655,7 +657,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">apartment</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Real Estate AI System</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Real Estate AI System</h3>
       <ul class="space-y-2.5 text-sm text-luxury-black/55">
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Lead qualification</li>
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Property recommendations</li>
@@ -669,7 +671,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">restaurant</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Restaurant AI System</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Restaurant AI System</h3>
       <ul class="space-y-2.5 text-sm text-luxury-black/55">
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Reservation bot</li>
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Order automation</li>
@@ -683,7 +685,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">school</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Coaching AI System</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Coaching AI System</h3>
       <ul class="space-y-2.5 text-sm text-luxury-black/55">
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Lead capture &amp; nurture</li>
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Session booking</li>
@@ -697,7 +699,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">shopping_bag</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">E-commerce AI System</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">E-commerce AI System</h3>
       <ul class="space-y-2.5 text-sm text-luxury-black/55">
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Customer support</li>
         <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-luxury-gold flex-shrink-0"></span>Order tracking</li>
@@ -760,7 +762,7 @@
 
   <!-- Case Studies Link -->
   <div class="text-center mt-12">
-    <a href="/case-studies" class="text-luxury-gold text-sm font-bold uppercase tracking-widest hover:text-luxury-black transition-colors">See full case studies â†’</a>
+    <a href="/case-studies" class="text-sm font-bold uppercase tracking-widest hover:text-luxury-black transition-colors" style="color:#7A5C1E;">See full case studies â†’</a>
   </div>
 </div>
 </section>
@@ -776,7 +778,7 @@
 
 <!-- BEGIN: Final CTA -->
 <section class="py-32 px-6 text-center scroll-mt-24" id="booking">
-<div class="max-w-3xl mx-auto"><p class="text-luxury-gold italic font-heading text-lg mb-6">Currently onboarding 3 new clients for April 2026.</p><h2 class="text-4xl md:text-6xl font-heading mb-8">Stop Scaling Headcount. Start Scaling Efficiency.</h2><p class="text-luxury-black/60 text-lg mb-12">Identify your operational bottlenecks and let us build the systems to solve them.</p><a href="#request-audit" target="_blank" rel="noopener noreferrer" class="bg-luxury-gold text-luxury-black px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20 inline-block">Request AI Operational Audit â†’</a><p class="mt-10 text-xs text-luxury-black/70 uppercase tracking-widest font-bold">ðŸ“ Mumbai-based Â· Serving Businesses Across India Â· Discovery Phase is Free.</p></div>
+<div class="max-w-3xl mx-auto"><p class="italic font-heading text-lg mb-6" style="color:#7A5C1E;">Currently onboarding 3 new clients for April 2026.</p><h2 class="text-4xl md:text-6xl font-heading mb-8">Stop Scaling Headcount. Start Scaling Efficiency.</h2><p class="text-luxury-black/60 text-lg mb-12">Identify your operational bottlenecks and let us build the systems to solve them.</p><a href="#request-audit" target="_blank" rel="noopener noreferrer" class="bg-luxury-gold text-luxury-black px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20 inline-block">Request AI Operational Audit â†’</a><p class="mt-10 text-xs text-luxury-black/70 uppercase tracking-widest font-bold">ðŸ“ Mumbai-based Â· Serving Businesses Across India Â· Discovery Phase is Free.</p></div>
 </section>
 <!-- END: Final CTA -->
 </main>
@@ -797,7 +799,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/services">Services</a></li>
 <li><a class="hover:text-white transition-colors" href="/use-cases">Use Cases</a></li>
 <li><a class="hover:text-white transition-colors" href="/process">Process</a></li>
@@ -807,7 +809,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Industries</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-logistics">Logistics</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-real-estate">Real Estate</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-clinics">Clinics</a></li>
@@ -818,7 +820,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Solutions</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-lead-management">Lead Admin</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-whatsapp-business">WhatsApp AI</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-customer-support">Client Support</a></li>
@@ -831,7 +833,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Contact</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a href="mailto:hello@automyze.com" class="hover:text-white transition-colors">hello@automyze.com</a></li>
 <li>Bandra West, Mumbai</li>
 <li><a href="tel:+919619810084" class="hover:text-white transition-colors">+91 96198 10084</a></li>
@@ -839,7 +841,7 @@
 </ul>
 </div>
 </div>
-<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/20">
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/50">
 <p>Â© 2026 Automyze. All rights reserved.</p>
 <div class="flex gap-8">
 <a href="#">Privacy Policy</a>

@@ -347,12 +347,15 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => {
       bindInterceptors();
-      // Watch for dynamically loaded elements as well
-      setInterval(bindInterceptors, 2000);
+      // Use MutationObserver instead of setInterval to avoid forced reflows
+      const observer = new MutationObserver(bindInterceptors);
+      observer.observe(document.body, { childList: true, subtree: true });
     });
   } else {
     bindInterceptors();
-    setInterval(bindInterceptors, 2000);
+    // Use MutationObserver instead of setInterval to avoid forced reflows
+    const observer = new MutationObserver(bindInterceptors);
+    observer.observe(document.body, { childList: true, subtree: true });
   }
 
   // === 7. FORM SUBMISSION VIA AJAX ===

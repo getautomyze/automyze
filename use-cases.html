@@ -29,8 +29,9 @@
 <meta property="og:site_name" content="Automyze"/>
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link rel="preconnect" href="https://static.cloudflareinsights.com" crossorigin/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/></noscript></noscript>
 <!-- Tailwind CSS v3 -->
 <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
@@ -51,6 +52,7 @@
      search.google.com/search-console
 â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE"/> -->
+<link rel="preload" href="/css/styles.css" as="style"/>
 <link rel="stylesheet" href="/css/styles.css"/>
 <style data-purpose="custom-animations">
     @keyframes fade-up {
@@ -203,13 +205,13 @@
 <div class="flex items-center gap-6">
 <div class="hidden lg:flex items-center gap-2 px-3 py-1 bg-luxury-gold/10 border border-luxury-gold/20 rounded-full">
 <span class="relative flex h-2 w-2">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75"></span>
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-luxury-gold opacity-75" style="will-change:transform,opacity;"></span>
 <span class="relative inline-flex rounded-full h-2 w-2 bg-luxury-gold"></span>
 </span>
-<span class="text-[10px] font-bold uppercase tracking-tighter text-luxury-gold">3 spots left for April</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter" style="color:#7A5C1E;">3 spots left for June</span>
 </div>
 <a class="bg-luxury-black text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-luxury-black/80 transition-all" href="#request-audit" target="_blank" rel="noopener noreferrer">
-          Request AI Audit â†’
+          Request AI Audit →
         </a>
 </div>
 </div>
@@ -221,7 +223,7 @@
 <!-- Page Hero -->
 <section class="pt-32 pb-20 px-6 bg-luxury-white">
 <div class="max-w-4xl mx-auto text-center">
-  <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">REFERENCE ARCHITECTURES</p>
+  <p class="text-xs uppercase tracking-[0.3em] font-bold mb-4" style="color:#7A5C1E;">REFERENCE ARCHITECTURES</p>
   <h1 class="text-4xl md:text-[56px] font-heading leading-tight mb-6">Sample Implementations</h1>
   <p class="text-luxury-black/75 max-w-xl mx-auto text-[15px] leading-relaxed mb-6">Concrete architectural blueprints for operational transformation.</p>
   <p class="text-luxury-black/30 text-xs font-body"><a href="/" class="hover:text-luxury-gold transition-colors">Home</a> <span class="mx-2">â†’</span> Use Cases</p>
@@ -240,7 +242,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">local_shipping</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Logistics: AI Fleet Dispatch</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Logistics: AI Fleet Dispatch</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Dispatchers spend 4 hours daily manually coordinating drivers.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -254,7 +256,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">solar_power</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Solar: Permitting Automation</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Solar: Permitting Automation</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Engineers bottlenecked by analyzing site photos for permits.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -268,7 +270,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">apartment</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Real Estate: Pre-Sales AI</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Real Estate: Pre-Sales AI</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">70% of inbound leads are unqualified, wasting broker time.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -282,7 +284,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">medical_services</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Healthcare: Patient Triage</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Healthcare: Patient Triage</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Front desk overwhelmed by routine insurance calls.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -296,7 +298,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">precision_manufacturing</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Manufacturing: Supply Chain</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Manufacturing: Supply Chain</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Manual entry of hundreds of varied supplier invoices.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -310,7 +312,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">gavel</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Law Firms: Client Intake</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Law Firms: Client Intake</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Partners spending unbillable hours drafting standard NDAs.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -324,7 +326,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">shopping_cart</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">E-Commerce: Post-Purchase</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">E-Commerce: Post-Purchase</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Support team swamped with "where is my order" requests.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -338,7 +340,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">account_balance</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Accounting: Invoice Recon</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Accounting: Invoice Recon</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Month-end reconciliation requires 4 days of manual work.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -352,7 +354,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">construction</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Construction: Vendor Quotes</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Construction: Vendor Quotes</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">Estimators manually reading dozens of varying subcontractor bids.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -366,7 +368,7 @@
       <div class="w-12 h-12 rounded-xl bg-luxury-gold/10 flex items-center justify-center mb-5 group-hover:bg-luxury-gold/20 transition-colors">
         <span class="material-symbols-outlined text-luxury-gold text-2xl">school</span>
       </div>
-      <h4 class="text-lg font-body font-semibold mb-4 text-luxury-black">Education: Student Progression</h4>
+      <h3 class="text-lg font-body font-semibold mb-4 text-luxury-black">Education: Student Progression</h3>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Problem</p>
       <p class="text-sm text-luxury-black/60 mb-4">High churn due to lack of personalized follow-up.</p>
       <p class="text-xs font-bold text-luxury-gold uppercase tracking-widest mb-2">Solution</p>
@@ -407,7 +409,7 @@
 <section class="py-24 px-6 text-center bg-luxury-beige">
 <div class="max-w-2xl mx-auto">
   <h2 class="text-3xl md:text-4xl font-heading mb-8">Ready to Start Building?</h2>
-  <a href="#request-audit" target="_blank" rel="noopener noreferrer" class="inline-block bg-luxury-gold text-luxury-black px-10 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20">Request AI Audit â†’</a>
+  <a href="#request-audit" target="_blank" rel="noopener noreferrer" class="inline-block bg-luxury-gold text-luxury-black px-10 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20">Request AI Audit →
   <p class="mt-6 text-luxury-black/70 text-sm">Want to be our next case study? Let's talk.</p>
 </div>
 </section>
@@ -430,7 +432,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/services">Services</a></li>
 <li><a class="hover:text-white transition-colors" href="/use-cases">Use Cases</a></li>
 <li><a class="hover:text-white transition-colors" href="/process">Process</a></li>
@@ -440,7 +442,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Industries</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-logistics">Logistics</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-real-estate">Real Estate</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-clinics">Clinics</a></li>
@@ -451,7 +453,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Solutions</h3>
-<ul class="space-y-3 text-white/60 text-sm">
+<ul class="space-y-3 text-white/75 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-lead-management">Lead Admin</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-whatsapp-business">WhatsApp AI</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-customer-support">Client Support</a></li>
@@ -464,7 +466,7 @@
 </div>
 <div>
 <h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Contact</h3>
-<ul class="space-y-4 text-white/60 text-sm">
+<ul class="space-y-4 text-white/75 text-sm">
 <li><a href="mailto:hello@automyze.com" class="hover:text-white transition-colors">hello@automyze.com</a></li>
 <li>Bandra West, Mumbai</li>
 <li><a href="tel:+919619810084" class="hover:text-white transition-colors">+91 96198 10084</a></li>
@@ -472,7 +474,7 @@
 </ul>
 </div>
 </div>
-<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/20">
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/50">
 <p>Â© 2026 Automyze. All rights reserved.</p>
 <div class="flex gap-8">
 <a href="#">Privacy Policy</a>

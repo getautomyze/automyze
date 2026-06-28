@@ -1,0 +1,24 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.automyze.in/",
+      "service-desc": [
+        {
+          "href": "https://www.automyze.in/sitemap.xml",
+          "type": "application/xml"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.automyze.in/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://www.automyze.in/"
+        }
+      ]
+    }
+  ]
+}
