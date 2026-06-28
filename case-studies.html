@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 <head>
-<!-- ═══════════════════════════════════════════════
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
      AI SEARCH ENGINE INTERFACE (AEO INDEX SUMMARY)
      Business: Automyze
      Industry: AI Operations Consulting & B2B Automation Partner
      Location: Bandra West, Mumbai, Maharashtra, India
      Services: WhatsApp CRM, custom booking agents, invoice OCR pipelines, quoting engines, and ledger sync middleware
      Email: hello@automyze.com
-     ════════════════════════════════════════════════ -->
+     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <link rel="icon" type="image/jpeg" href="favicon.jpg"/>
 
 <link rel="apple-touch-icon" href="favicon.jpg"/>
@@ -28,15 +28,13 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/></noscript></noscript>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/><noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Dancing+Script:wght@400..700&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/></noscript></noscript>
 <!-- Tailwind CSS v3 -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-
-<!-- ═══════════════════════════════════════════════
-     GOOGLE ANALYTICS — Replace G-XXXXXXXXXX with your
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     GOOGLE ANALYTICS â€” Replace G-XXXXXXXXXX with your
      actual GA4 measurement ID from analytics.google.com
-════════════════════════════════════════════════ -->
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -45,31 +43,13 @@
   gtag('config', 'G-XXXXXXXXXX');
 </script> -->
 
-<!-- ═══════════════════════════════════════════════
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
      GOOGLE SEARCH CONSOLE VERIFICATION
      Replace content value after verifying at
      search.google.com/search-console
-════════════════════════════════════════════════ -->
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE"/> -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'luxury-white': '#FAFAF8',
-            'luxury-beige': '#F2F0EB',
-            'luxury-black': '#0A0A0A',
-            'luxury-gold': '#C9A96E',
-          },
-          fontFamily: {
-            'heading': ['"Playfair Display"', 'serif'],
-            'body': ['"DM Sans"', 'sans-serif'],
-            'script': ['"Dancing Script"', 'cursive'],
-          },
-        }
-      }
-    }
-  </script>
+<link rel="stylesheet" href="/css/styles.css"/>
 <style data-purpose="custom-animations">
     @keyframes fade-up {
       from { opacity: 0; transform: translateY(20px); }
@@ -100,7 +80,6 @@
 <meta http-equiv="x-dns-prefetch-control" content="on"/>
 <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
 <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
-<link rel="dns-prefetch" href="https://cdn.tailwindcss.com"/>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=DM+Sans:wght@300;400;500&display=swap" as="style"/>
 
 
@@ -139,33 +118,33 @@
 <div class="group relative inline-block">
   <div class="flex items-center gap-1 cursor-pointer hover:text-luxury-black transition-colors text-xs">
     <span>Use Cases</span>
-    <svg class="w-3.5 h-3.5 opacity-60 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    <svg aria-hidden="true" class="w-3.5 h-3.5 opacity-60 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
   </div>
   <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 w-80 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-50">
     <div class="bg-white border border-luxury-beige rounded-xl shadow-xl p-3 grid gap-1 font-body normal-case tracking-normal text-left">
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-logistics">
         <div class="font-semibold text-xs text-luxury-black">Logistics & Supply Chain</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Fleet dispatch & manifest OCR</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Fleet dispatch & manifest OCR</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-real-estate">
         <div class="font-semibold text-xs text-luxury-black">Real Estate & Brokerage</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Contract review & lead routing</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Contract review & lead routing</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-clinics">
         <div class="font-semibold text-xs text-luxury-black">Clinics & EHR Systems</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Intake forms & patient scheduling</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Intake forms & patient scheduling</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-solar">
         <div class="font-semibold text-xs text-luxury-black">Solar Permitting & Proposal</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Proposal generation & CAD pipelines</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Proposal generation & CAD pipelines</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-manufacturing">
         <div class="font-semibold text-xs text-luxury-black">Manufacturing Invoice ERP</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Invoice matching & warehouse logs</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Invoice matching & warehouse logs</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-service-businesses">
         <div class="font-semibold text-xs text-luxury-black">Service & Intake Operations</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Custom client booking workflows</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Custom client booking workflows</div>
       </a>
     </div>
   </div>
@@ -175,41 +154,41 @@
 <div class="group relative inline-block">
   <div class="flex items-center gap-1 cursor-pointer hover:text-luxury-black transition-colors text-xs">
     <span>Process</span>
-    <svg class="w-3.5 h-3.5 opacity-60 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    <svg aria-hidden="true" class="w-3.5 h-3.5 opacity-60 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
   </div>
   <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[560px] opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-50">
     <div class="bg-white border border-luxury-beige rounded-xl shadow-xl p-4 grid grid-cols-2 gap-1.5 font-body normal-case tracking-normal text-left">
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-lead-management">
         <div class="font-semibold text-xs text-luxury-black">Lead Capture & Qualification</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Inbound triage & follow-up systems</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Inbound triage & follow-up systems</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-whatsapp-business">
         <div class="font-semibold text-xs text-luxury-black">WhatsApp CRM Integration</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Real-time agent communication</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Real-time agent communication</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-customer-support">
         <div class="font-semibold text-xs text-luxury-black">RAG Customer Support</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Hallucination-free knowledge bases</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Hallucination-free knowledge bases</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-document-processing">
         <div class="font-semibold text-xs text-luxury-black">Intelligent OCR Parsing</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Multi-format data extraction</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Multi-format data extraction</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-appointment-booking">
         <div class="font-semibold text-xs text-luxury-black">Automated Booking Sync</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Multi-calendar coordination</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Multi-calendar coordination</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-quotation-generation">
         <div class="font-semibold text-xs text-luxury-black">Pricing & Quote Engine</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Automated estimation algorithms</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Automated estimation algorithms</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-back-office-operations">
         <div class="font-semibold text-xs text-luxury-black">Back Office & ERP Sync</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Automated accounting pipelines</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Automated accounting pipelines</div>
       </a>
       <a class="px-3 py-2 rounded-lg hover:bg-luxury-beige/50 hover:text-luxury-black transition-all duration-200 block text-left hover:translate-x-1" href="/ai-for-team-productivity">
         <div class="font-semibold text-xs text-luxury-black">Custom Workspace SOP AI</div>
-        <div class="text-[10px] text-luxury-black/40 mt-0.5 normal-case font-normal leading-tight">Core knowledge & team training</div>
+        <div class="text-[10px] text-luxury-black/70 mt-0.5 normal-case font-normal leading-tight">Core knowledge & team training</div>
       </a>
     </div>
   </div>
@@ -228,20 +207,21 @@
 <span class="text-[10px] font-bold uppercase tracking-tighter text-luxury-gold">3 spots left for April</span>
 </div>
 <a class="bg-luxury-black text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-luxury-black/80 transition-all" href="#request-audit" target="_blank" rel="noopener noreferrer">
-          Request AI Audit →
+          Request AI Audit â†’
         </a>
 </div>
 </div>
 </nav>
 <!-- END: Navbar -->
+<main>
 
 <!-- Page Hero -->
 <section class="pt-32 pb-20 px-6 bg-luxury-white">
 <div class="max-w-4xl mx-auto text-center">
   <p class="text-xs uppercase tracking-[0.3em] text-luxury-gold font-bold mb-4">Case Studies</p>
   <h1 class="text-4xl md:text-[56px] font-heading leading-tight mb-6">Real Systems. Real Results.</h1>
-  <p class="text-luxury-black/50 max-w-xl mx-auto text-[15px] leading-relaxed mb-6">Every number below comes from a system we designed, built, and deployed in under 4 weeks.</p>
-  <p class="text-luxury-black/30 text-xs font-body"><a href="/" class="hover:text-luxury-gold transition-colors">Home</a> <span class="mx-2">→</span> Case Studies</p>
+  <p class="text-luxury-black/75 max-w-xl mx-auto text-[15px] leading-relaxed mb-6">Every number below comes from a system we designed, built, and deployed in under 4 weeks.</p>
+  <p class="text-luxury-black/30 text-xs font-body"><a href="/" class="hover:text-luxury-gold transition-colors">Home</a> <span class="mx-2">â†’</span> Case Studies</p>
 </div>
 </section>
 
@@ -255,32 +235,32 @@
       <div class="bg-luxury-black p-6">
         <span class="inline-block bg-luxury-gold/20 text-luxury-gold text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">AI Sales System</span>
         <h3 class="text-white text-xl font-heading">Heights Realty</h3>
-        <p class="text-white/40 text-xs mt-1">Luxury Real Estate · Mumbai</p>
+        <p class="text-white text-xs mt-1">Luxury Real Estate Â· Mumbai</p>
       </div>
       <div class="p-8">
         <div class="mb-6">
           <p class="text-[10px] text-red-400 font-bold uppercase tracking-widest mb-2">Problem</p>
-          <p class="text-sm text-luxury-black/60 leading-relaxed">Manual lead qualification via phone calls. Sales team was spending 4+ hours/day on unqualified inquiries. Leads from Instagram, website, and WhatsApp were going unanswered for 6–12 hours.</p>
+          <p class="text-sm text-luxury-black/60 leading-relaxed">Manual lead qualification via phone calls. Sales team was spending 4+ hours/day on unqualified inquiries. Leads from Instagram, website, and WhatsApp were going unanswered for 6â€“12 hours.</p>
         </div>
         <div class="mb-6">
           <p class="text-[10px] text-luxury-gold font-bold uppercase tracking-widest mb-2">Solution</p>
-          <p class="text-sm text-luxury-black/60 leading-relaxed">AI Sales System — WhatsApp AI agent + website chatbot + CRM automation. Instant lead capture across all channels, automatic qualification, property matching, and site-visit booking.</p>
+          <p class="text-sm text-luxury-black/60 leading-relaxed">AI Sales System â€” WhatsApp AI agent + website chatbot + CRM automation. Instant lead capture across all channels, automatic qualification, property matching, and site-visit booking.</p>
         </div>
         <div class="pt-5 border-t border-luxury-beige">
           <p class="text-[10px] text-luxury-black font-bold uppercase tracking-widest mb-4">Results</p>
           <div class="grid grid-cols-2 gap-4 mb-6">
             <div class="bg-luxury-beige/60 rounded-lg p-4 text-center">
               <p class="text-2xl font-heading text-luxury-black">80%</p>
-              <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">Faster Response</p>
+              <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">Faster Response</p>
             </div>
             <div class="bg-luxury-beige/60 rounded-lg p-4 text-center">
               <p class="text-2xl font-heading text-luxury-black">30%</p>
-              <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">More Site Visits</p>
+              <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">More Site Visits</p>
             </div>
           </div>
           <blockquote class="border-l-2 border-luxury-gold pl-4 mt-4">
             <p class="italic text-sm text-luxury-black/60 mb-2">"Automyze didn't just give us a bot; they reimagined how we handle luxury real estate leads in Mumbai."</p>
-            <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-widest">— Rahul M., CEO</p>
+            <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-widest">â€” Rahul M., CEO</p>
           </blockquote>
         </div>
       </div>
@@ -291,32 +271,32 @@
       <div class="bg-luxury-black p-6">
         <span class="inline-block bg-luxury-gold/20 text-luxury-gold text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">AI Support System</span>
         <h3 class="text-white text-xl font-heading">CloudKitchen Co.</h3>
-        <p class="text-white/40 text-xs mt-1">Food Delivery · Multi-City India</p>
+        <p class="text-white text-xs mt-1">Food Delivery Â· Multi-City India</p>
       </div>
       <div class="p-8">
         <div class="mb-6">
           <p class="text-[10px] text-red-400 font-bold uppercase tracking-widest mb-2">Problem</p>
-          <p class="text-sm text-luxury-black/60 leading-relaxed">3-person support team handling 200+ daily WhatsApp queries — order status, complaints, refunds. Staff was overwhelmed, average response: 45 minutes. High customer churn.</p>
+          <p class="text-sm text-luxury-black/60 leading-relaxed">3-person support team handling 200+ daily WhatsApp queries â€” order status, complaints, refunds. Staff was overwhelmed, average response: 45 minutes. High customer churn.</p>
         </div>
         <div class="mb-6">
           <p class="text-[10px] text-luxury-gold font-bold uppercase tracking-widest mb-2">Solution</p>
-          <p class="text-sm text-luxury-black/60 leading-relaxed">AI Customer Support System — WhatsApp AI agent with order tracking API, automated complaint routing, instant refund triggers, and human escalation only for edge cases.</p>
+          <p class="text-sm text-luxury-black/60 leading-relaxed">AI Customer Support System â€” WhatsApp AI agent with order tracking API, automated complaint routing, instant refund triggers, and human escalation only for edge cases.</p>
         </div>
         <div class="pt-5 border-t border-luxury-beige">
           <p class="text-[10px] text-luxury-black font-bold uppercase tracking-widest mb-4">Results</p>
           <div class="grid grid-cols-2 gap-4 mb-6">
             <div class="bg-luxury-beige/60 rounded-lg p-4 text-center">
               <p class="text-2xl font-heading text-luxury-black">90%</p>
-              <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">Queries Auto-Resolved</p>
+              <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">Queries Auto-Resolved</p>
             </div>
             <div class="bg-luxury-beige/60 rounded-lg p-4 text-center">
               <p class="text-2xl font-heading text-luxury-black">30hrs</p>
-              <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">Saved Per Week</p>
+              <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">Saved Per Week</p>
             </div>
           </div>
           <blockquote class="border-l-2 border-luxury-gold pl-4 mt-4">
             <p class="italic text-sm text-luxury-black/60 mb-2">"The workflow automation they built for our supply chain saved my team 30 hours a week. It paid for itself in the first month."</p>
-            <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-widest">— Ananya S., Logistics Director</p>
+            <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-widest">â€” Ananya S., Logistics Director</p>
           </blockquote>
         </div>
       </div>
@@ -327,7 +307,7 @@
       <div class="bg-luxury-black p-6">
         <span class="inline-block bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">Workflow Automation</span>
         <h3 class="text-white text-xl font-heading">Professional Services Firm</h3>
-        <p class="text-white/40 text-xs mt-1">Operations · Finance</p>
+        <p class="text-white text-xs mt-1">Operations Â· Finance</p>
       </div>
       <div class="p-8">
         <div class="mb-6">
@@ -336,27 +316,27 @@
         </div>
         <div class="mb-6">
           <p class="text-[10px] text-luxury-gold font-bold uppercase tracking-widest mb-2">Solution</p>
-          <p class="text-sm text-luxury-black/60 leading-relaxed">We built an end-to-end workflow automation system using n8n that connected their CRM, email, WhatsApp, and accounting software — triggering the right action automatically at every stage.</p>
+          <p class="text-sm text-luxury-black/60 leading-relaxed">We built an end-to-end workflow automation system using n8n that connected their CRM, email, WhatsApp, and accounting software â€” triggering the right action automatically at every stage.</p>
         </div>
         <div class="pt-5 border-t border-luxury-beige">
           <p class="text-[10px] text-luxury-black font-bold uppercase tracking-widest mb-4">Results</p>
           <div class="grid grid-cols-3 gap-3 mb-6">
             <div class="bg-luxury-beige/60 rounded-lg p-3 text-center">
               <p class="text-xl font-heading text-luxury-black">3hrs</p>
-              <p class="text-[9px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">Saved Daily</p>
+              <p class="text-[9px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">Saved Daily</p>
             </div>
             <div class="bg-luxury-beige/60 rounded-lg p-3 text-center">
               <p class="text-xl font-heading text-luxury-black">100%</p>
-              <p class="text-[9px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">CRM Accuracy</p>
+              <p class="text-[9px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">CRM Accuracy</p>
             </div>
             <div class="bg-luxury-beige/60 rounded-lg p-3 text-center">
               <p class="text-xl font-heading text-luxury-black">Zero</p>
-              <p class="text-[9px] text-luxury-black/40 font-bold uppercase tracking-wider mt-1">Manual Follow-ups</p>
+              <p class="text-[9px] text-luxury-black/70 font-bold uppercase tracking-wider mt-1">Manual Follow-ups</p>
             </div>
           </div>
           <blockquote class="border-l-2 border-luxury-gold pl-4 mt-4">
-            <p class="italic text-sm text-luxury-black/60 mb-2">"It’s like we hired an invisible operations manager who never sleeps and never makes mistakes."</p>
-            <p class="text-[10px] text-luxury-black/40 font-bold uppercase tracking-widest">— Director, Mumbai Consultancy</p>
+            <p class="italic text-sm text-luxury-black/60 mb-2">"Itâ€™s like we hired an invisible operations manager who never sleeps and never makes mistakes."</p>
+            <p class="text-[10px] text-luxury-black/70 font-bold uppercase tracking-widest">â€” Director, Mumbai Consultancy</p>
           </blockquote>
         </div>
       </div>
@@ -370,18 +350,19 @@
 <section class="py-24 px-6 text-center bg-luxury-white">
 <div class="max-w-2xl mx-auto">
   <h2 class="text-3xl md:text-4xl font-heading mb-8">Want to Be Our Next Case Study?</h2>
-  <a href="#request-audit" target="_blank" rel="noopener noreferrer" class="inline-block bg-luxury-gold text-luxury-black px-10 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20">Request AI Audit →</a>
-  <p class="mt-6 text-luxury-black/40 text-sm">Want to be our next case study? Let’s talk.</p>
+  <a href="#request-audit" target="_blank" rel="noopener noreferrer" class="inline-block bg-luxury-gold text-luxury-black px-10 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-luxury-gold/20">Request AI Audit â†’</a>
+  <p class="mt-6 text-luxury-black/70 text-sm">Want to be our next case study? Letâ€™s talk.</p>
 </div>
 </section>
 
+</main>
 <!-- BEGIN: Footer -->
 <footer class="bg-luxury-black text-white pt-20 pb-10 px-6 border-t-[5px] border-luxury-gold">
 <div class="max-w-7xl mx-auto">
 <div class="grid md:grid-cols-5 gap-12 mb-20">
 <div>
 <h2 class="text-3xl font-heading mb-6 tracking-tight">Automyze</h2>
-<p class="text-white/40 text-xs mb-8 leading-relaxed">
+<p class="text-white text-xs mb-8 leading-relaxed">
             Premium AI Operations Consulting for growing enterprises. Stop scaling headcount. Start scaling efficiency.
           </p>
 <div class="flex gap-4">
@@ -391,7 +372,7 @@
 </div>
 </div>
 <div>
-<h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h4>
+<h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Navigation</h3>
 <ul class="space-y-4 text-white/60 text-sm">
 <li><a class="hover:text-white transition-colors" href="/services">Services</a></li>
 <li><a class="hover:text-white transition-colors" href="/use-cases">Use Cases</a></li>
@@ -401,7 +382,7 @@
 </ul>
 </div>
 <div>
-<h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Industries</h4>
+<h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Industries</h3>
 <ul class="space-y-3 text-white/60 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-logistics">Logistics</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-real-estate">Real Estate</a></li>
@@ -412,7 +393,7 @@
 </ul>
 </div>
 <div>
-<h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Solutions</h4>
+<h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Solutions</h3>
 <ul class="space-y-3 text-white/60 text-sm">
 <li><a class="hover:text-white transition-colors" href="/ai-for-lead-management">Lead Admin</a></li>
 <li><a class="hover:text-white transition-colors" href="/ai-for-whatsapp-business">WhatsApp AI</a></li>
@@ -425,7 +406,7 @@
 </ul>
 </div>
 <div>
-<h4 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Contact</h4>
+<h3 class="text-sm font-bold uppercase tracking-[0.2em] mb-6 text-luxury-gold">Contact</h3>
 <ul class="space-y-4 text-white/60 text-sm">
 <li><a href="mailto:hello@automyze.com" class="hover:text-white transition-colors">hello@automyze.com</a></li>
 <li>Bandra West, Mumbai</li>
@@ -435,7 +416,7 @@
 </div>
 </div>
 <div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/20">
-<p>© 2026 Automyze. All rights reserved.</p>
+<p>Â© 2026 Automyze. All rights reserved.</p>
 <div class="flex gap-8">
 <a href="#">Privacy Policy</a>
 <a href="#">Terms of Service</a>

@@ -21,18 +21,38 @@
 
   // === 1. GOOGLE ANALYTICS INTEGRATION ===
   if (CONFIG.GA_MEASUREMENT_ID && CONFIG.GA_MEASUREMENT_ID !== "G-XXXXXXXXXX") {
-    const gaScript = document.createElement("script");
-    gaScript.async = true;
-    gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.GA_MEASUREMENT_ID}`;
-    document.head.appendChild(gaScript);
+    // Defer loading to keep the main thread unblocked during early paint phases
+    const initGA = () => {
+      if (window.gaInitialized) return;
+      window.gaInitialized = true;
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
+      const gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.GA_MEASUREMENT_ID}`;
+      document.head.appendChild(gaScript);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", CONFIG.GA_MEASUREMENT_ID);
+      window.gtag = gtag; // Make it globally accessible
+    };
+
+    const triggerGA = () => {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => setTimeout(initGA, 1000));
+      } else {
+        setTimeout(initGA, 2000);
+      }
+    };
+
+    if (document.readyState === "complete") {
+      triggerGA();
+    } else {
+      window.addEventListener("load", triggerGA);
     }
-    gtag("js", new Date());
-    gtag("config", CONFIG.GA_MEASUREMENT_ID);
-    window.gtag = gtag; // Make it globally accessible
   }
 
   // === 2. DYNAMIC FAVICON CORRECTION ===
